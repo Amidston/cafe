@@ -1,0 +1,94 @@
+@mixin tab {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+@mixin lang {
+  padding: 0 5px;
+}
+
+.header {
+  display: flex;
+  height: 5vh;
+  border: 2px solid black;
+  background-color: #ffd3b6;
+  border-bottom: none;
+  .header-logo {
+    position: absolute;
+    height: 4.8vh;
+  }
+  .header-text {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-name {
+    font-size: 2.5vh;
+    font-weight: 700;
+    text-align: center;
+  }
+  .header-moto {
+    font-size: 1.7vh;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.nav-bar {
+  height: 4vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffd3b6;
+  border: 2px solid black;
+  border-bottom: none;
+  .nav-item {
+    @include tab;
+    .lang {
+      @include lang;
+    }
+    .selected-lang {
+      @include lang;
+      font-weight: 700;
+    }
+  }
+  .nav-item-selected {
+    @include tab;
+    font-weight: 700;
+  }
+}
+
+.body {
+  height: 86vh;
+  background-color: #d98b75;
+  border: 2px solid black;
+  border-bottom: none;
+  .body-logo {
+    position: absolute;
+    top: 9.2vh;
+    left: 5vw;
+    height: 8vw;
+  }
+}
+
+.footer {
+  height: 5vh;
+  background-color: #ffd3b6;
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 15px;
+  a {
+    color: #d98b75;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    .body-logo {
+      left: 3vw;
+      height: 18vw;
+    }
+  }
+}

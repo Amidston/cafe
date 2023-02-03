@@ -1,0 +1,50 @@
+{
+  "moto": "The light is inside us",
+  "main": "Main",
+  "menu": "Menu",
+  "charity": "Charity",
+  "about-us": "About us",
+  "eng": "ENG",
+  "ua": "UA",
+  "main-tab": {
+    "header": "Who are we?",
+    "first": "The main task is supporting Ukrainian nation with providing donations directly to the fonds that support Armed Forces and people or animals in need. Also, our project keeps our unbroken Ukrainian temper, which helps us fighting the enemy.",
+    "second": "On Thursdays we provide special activities! For example: literature evenings, evenings of classical music, mini cinema, workshops etc.",
+    "third": "Donations are optional, all money is sent to the charity.",
+    "fourth": "Our café is situated under the ground, so it's completely safe. It's opened even during the air alerts. if you're sad, concerned or scared, we're waiting for you here!",
+    "fifth": "The atmosphere is cozy and warm in order to make our customers feel comfortable, even with nowdays' conditions.",
+    "sixth": "In our café we have power generators, so when there is no electricity, we still can work and help our country to develop economics."
+  },
+  "menu-tab": {
+    "desserts": "Desserts",
+    "cupcake": "Cupcake (chocolate, vanilla, strawberry, coconut)",
+    "tiramisu": "Tiramisu",
+    "macarons": "Macarons (blackberry, pistachio, chocolate, orange)",
+    "brownie": "Brownie",
+    "mochi": "Mochi (green tea, pineapple, cream, coffee, raspberry)",
+    "panna-cotta": "Panna Cotta",
+    "creme-brulee": "Creme Brulee",
+    "cheesecake": "Cheesecake (forest berries, banana, caramel, chocolate, lemon)",
+    "cold-drinks": "Cold Drinks",
+    "milkshake": "Milkshake (strawberry, banana, vanilla)",
+    "lemonade": "Lemonade (classic, watermelon, pineapple)",
+    "hot-drinks": "Hot Drinks",
+    "coffee": "Coffee (espresso, americano, cappuccino, latte, raf)",
+    "tea": "Tea (green, black, ginger, crimson, with mint, with bergamot, with lemon and honey)",
+    "mulled-wine": "Alcohol-free mulled wine"
+  },
+  "charity-tab": {
+    "desc": "Our café gives you an opportunity to donate your money to charity with the help of “Red Paws”. “Red Paws” is an initiative made in cooperation with charity foundations, created to help pet shelters. You can support animals by either visiting our special events, that we hold in our establishment, or contributing your money on our website. Also, 2% from every purchase automatically go to the foundation.",
+    "counter-text": "Already raised",
+    "counter-curr": "UAH"
+  },
+  "about-tab": {
+    "polina": "Polina Kashyrska",
+    "daria": "Daria Bykoder",
+    "first": "are two people who firstly came up with the idea of starting a business. Their main purpose is to create a warm and cozy environment. Also they establish all communications between the participants of the team.",
+    "snizhana": "Snizhana Pishta",
+    "second": "is a person who joined a project to create a logo and illustrate the website. Her main purpose was conveying the atmosphere of the establishment as it has in the idea of the main organizers. Also, she is active in detailing the project.",
+    "dmytro": "Dmytro Bykoder",
+    "third": "is Prime Time graduate, team’s IT department, his goal is to support younger generation of prime time students and help our country stay strong."
+  }
+}

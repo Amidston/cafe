@@ -1,0 +1,12 @@
+@import './App.scss';
+@import './components/MainComponent/MainComponent.scss';
+@import './components/MenuComponent/MenuComponent.scss';
+@import './components/CharityComponent/CharityComponent.scss';
+@import './components/AboutUsComponent/AboutUsComponent.scss';
+@import '~react-image-gallery/styles/scss/image-gallery.scss';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', sans-serif;
+}

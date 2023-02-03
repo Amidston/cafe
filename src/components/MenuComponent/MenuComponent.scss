@@ -1,0 +1,37 @@
+.menu-div {
+  font-size: 2vh;
+
+  .menu-header {
+    margin: 2vh 0;
+    text-align: center;
+  }
+
+  .menu-content {
+    margin: 5%;
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .image-gallery {
+    margin: 0 auto;
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-div {
+    font-size: 1.9vh;
+    .menu-header {
+      margin: 2vh 15%;
+    }
+
+    .menu-content {
+      flex-direction: column;
+    }
+
+    .image-gallery {
+      margin: 0 auto;
+      width: 40vw;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.main-div {
+  margin: 0 25%;
+  width: 50%;
+  text-align: center;
+  font-size: 2vh;
+
+  .main-header {
+    margin: 2vh 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-div {
+    margin: 0 10%;
+    width: 80%;
+    font-size: 1.9vh;
+    .main-header {
+      margin: 2vh 15%;
+    }
+  }
+}
